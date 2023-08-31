@@ -7,10 +7,11 @@ Alexandre Cezar <acezar@paloaltonetworks.com>, August 31, 2023:
 Learn about the critical components of Prisma Cloud Satellite
 
 == Satellite Application
-Satellite manages and orchestrates the lifecycle of all the Prisma Cloud K8s capabilities, expect for the Defender.In its initial release, only one function is available (Discovery), but in the future customers will be able to select additional ones, based on their unique requirements
+Satellite manages and orchestrates the lifecycle of all the Prisma Cloud K8s capabilities, expect for the Defender. +
+In its initial release, only one function is available (Discovery), but in the future, customers will be able to select additional ones, based on their unique requirements and needs.
 
 == Discovery Function
-Discover is a basic function of Satellite, which allows Prisma Cloud to get visibility of K8s configurations and DNS requests. Discovery is a key component of AppDNA and K8s container exposure features of Prisma Cloud+
+Discover is a basic function of Satellite, which allows Prisma Cloud to get visibility of K8s configurations and DNS requests. Discovery is a key component of AppDNA and K8s container exposure features of Prisma Cloud +
 
 == Prisma Cloud User Interface
 Web UI used to deploy and manage the Satellite Application  +
