@@ -1,0 +1,37 @@
+= System Requirements
+Alexandre Cezar <acezar@paloaltonetworks.com>, August 31, 2022:
+
+Your system must meet specific requirements for the Satellite to be successfully installed.
+
+*Connectivity*: +
+Satellite need outgoing access to the following Prisma Cloud domains and subdomains. +
+
+- prismacloud.io
+- amazonaws.com
+- gcr.io
+
+If you have firewalls blocking this traffic, add the following values to their allow lists:
+
+- *.prismacloud.io
+- gcr.io
+- *.amazonaws.com
+
+*Host Requirements* +
+As a minimum, Satellite requires a K8s Node that can dedicate 256MB RAM and 900mCPU.
+
+*Supported K8s Platforms and versions* +
+Satellite is supported on the following platforms and versions:
+
+|===
+s|Platform s|Version
+|AWS EKS
+|1.24, 1.25, 1.26, 1.27
+
+|Azure AKS
+|1.24, 1.25, 1.26, 1.27
+
+|Google GKE
+|1.24, 1.25, 1.26, 1.27
+|===
+
+*Service Account Permissions* +

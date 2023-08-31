@@ -1,0 +1,38 @@
+= Install Prisma Cloud K8s Satellite
+Alexandre Cezar <acezar@paloaltonetworks.com> 1.0, August 31, 2023:
+:toc:
+:toc-title:
+:toclevels: 4
+:icons: font
+
+== System Requirements
+System requirements are documented https://github.com/alexandre-cezar/cns-docs/blob/main/System%20Requirements.adoc[here]
+
+== Installing Satellite
+
+The steps below cover the Satellite installation +
+
+* Step 1 - Navigate to Prisma Cloud/Settings/K8s Satellite and click on `Deploy Satellite`. +
+
+image::images/install_satellite-1.png[width=400,align="center"]
+
+* Step 2 - Click on Deploy Satellite and provide the Cluster Identifier.
+
+image::images/install_satellite-2.png[width=400,align="center"]
+
+[IMPORTANT]
+You can find your Cluster Asset ID by looking into the Cluster `Asset ID` field information on the Prisma Cloud Asset Inventory.
+
+* Step 3 - Copy the Helm chart and run it at your cluster.
+
+image::images/install_satellite-3.png[width=400,align="center"]
+
+[WARNING]
+A unique identifier is generated at each time a helm chart is generated and it acts as a cluster identifier, therefore you cannot reuse the helm chart across different clusters.
+
+Right after the helm chart is generated, your cluster will be on `Pending` state, until Satellite gets deployed and starts reporting to Prisma Cloud
+
+image::images/install_satellite-4.png[width=400,align="center"]
+
+After the deployment is done, the cluster status will change to `Ready`
+

@@ -1,0 +1,10 @@
+= Troubleshooting
+Alexandre Cezar <acezar@paloaltonetworks.com>, August 31, 2023:
+:toc:
+:toc-title:
+:icons: font
+
+Several tools are in place to help you identify issues and troubleshoot them. Below are the most common issues and guidance on how to troubleshoot them.
+
+== Installation Issues
+

@@ -1,0 +1,18 @@
+= Prisma Cloud Satellite
+Alexandre Cezar <acezar@paloaltonetworks.com> 1.0, August 31, 2023:
+
+== About
+
+Prisma Cloud Satellite is an operator designed to manage and orchestrate the deployment of Prisma Cloud functions required for different aspects of K8s Visibility, Monitoring and Posture.
+
+Customers can easily install the Satellite using their traditional deployment mechanisms and start getting visibility over their K8s clusters.
+
+[IMPORTANT]
+Satellite does not have any enforcement security capabilities, and it's not an alternative for Prisma Cloud Defender as both tools serve different purposes.
+
+=== Additional Information
+
+==== https://github.com/alexandre-cezar/cns-docs/blob/main/Concepts.adoc[Concepts]
+==== https://github.com/alexandre-cezar/cns-docs/blob/main/Get%20Started.adoc[Get Started]
+==== https://github.com/alexandre-cezar/cns-docs/blob/main/System%20Requirements.adoc[System Requirements]
+==== https://github.com/alexandre-cezar/cns-docs/blob/main/Planning.adoc[Automating the Satellite Deployment]
