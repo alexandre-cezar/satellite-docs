@@ -4,7 +4,7 @@ Alexandre Cezar <acezar@paloaltonetworks.com> 1.0, August 31, 2023:
 == Get Started
 To quickly get started, complete the following tasks. +
 
-* https://github.com/alexandre-cezar/cns-docs/blob/main/Install_Satellite.adoc[Install the Satellite Application] +
+* https://github.com/alexandre-cezar/satellite-docs/blob/main/Install_Satellite.adoc[Install the Satellite Application] +
 
 After the Satellite Deployment is done, follow these additional steps: +
 
