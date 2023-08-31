@@ -6,9 +6,9 @@ Alexandre Cezar <acezar@paloaltonetworks.com> 1.0, August 31, 2023:
 :icons: font
 
 == System Requirements
-System requirements are documented https://github.com/alexandre-cezar/cns-docs/blob/main/System%20Requirements.adoc[here]
+If you are not familiar with Satellite requirements, please refer to this https://github.com/alexandre-cezar/satellite-docs/blob/main/System_Requirements.adoc[page]
 
-== Installing Satellite
+== Satellite Installation
 
 The steps below cover the Satellite installation +
 
