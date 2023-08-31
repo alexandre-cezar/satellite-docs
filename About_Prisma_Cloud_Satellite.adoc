@@ -3,7 +3,7 @@ Alexandre Cezar <acezar@paloaltonetworks.com> 1.0, August 31, 2023:
 
 == About
 
-Prisma Cloud Satellite is an operator designed to manage and orchestrate the deployment of Prisma Cloud functions required for different aspects of K8s Visibility, Monitoring and Posture.
+Prisma Cloud Satellite is an operator designed to manage and orchestrate the deployment of Prisma Cloud functions that are required for Prisma Cloud to perform different tasks in K8s clusters, such as  Configuration Visibility, Application Detection, Asset tracing, Container Exposure and Security Posture.
 
 Customers can easily install the Satellite using their traditional deployment mechanisms and start getting visibility over their K8s clusters.
 
