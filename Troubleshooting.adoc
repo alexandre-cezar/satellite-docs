@@ -4,7 +4,7 @@ Alexandre Cezar <acezar@paloaltonetworks.com>, August 31, 2023:
 :toc-title:
 :icons: font
 
-Several tools are in place to help you identify issues and troubleshoot them. Below are the most common issues and guidance on how to troubleshoot them.
+If you found yourself with issues regarding the Satellite, please refer to this page.
 
 == Installation Issues
 
