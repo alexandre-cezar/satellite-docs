@@ -12,7 +12,7 @@ Satellite does not have any enforcement security capabilities, and it's not an a
 
 === Additional Information
 
-==== https://github.com/alexandre-cezar/cns-docs/blob/main/Concepts.adoc[Concepts]
-==== https://github.com/alexandre-cezar/cns-docs/blob/main/Get%20Started.adoc[Get Started]
-==== https://github.com/alexandre-cezar/cns-docs/blob/main/System%20Requirements.adoc[System Requirements]
-==== https://github.com/alexandre-cezar/cns-docs/blob/main/Planning.adoc[Automating the Satellite Deployment]
+==== https://github.com/alexandre-cezar/satellite-docs/blob/main/Concepts.adoc[Concepts]
+==== https://github.com/alexandre-cezar/satellite-docs/blob/main/Get_Started.adoc[Get Started]
+==== https://github.com/alexandre-cezar/satellite-docs/blob/main/System_Requirements.adoc[System Requirements]
+==== https://github.com/alexandre-cezar/satellite-docs/blob/main/Automating__Satellite_Deployment.adoc[Automating Satellite Deployments]
