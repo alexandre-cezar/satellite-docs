@@ -34,5 +34,11 @@ Right after the helm chart is generated, your cluster will be on `Pending` state
 
 image::images/install_satellite-4.png[width=400,align="center"]
 
-After the deployment is done, the cluster status will change to `Ready`
+After the deployment is done, the cluster status will change to a `Ready`
+state.
 
+image::images/install_satellite-5.png[width=400,align="center"]
+
+Once a cluster moves to a `Ready` state, it will continuously sending keep-alives to Prisma Cloud every 30 minutes. If there's a communication issue or if the Satellite gets removed, the object will move into a `Offline` state until the communication is reestablished or the Satellite object is deleted in the Prisma Cloud console.
+
+image::images/install_satellite-7.png[width=400,align="center"]
