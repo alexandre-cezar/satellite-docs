@@ -6,3 +6,4 @@
 * [Installing Satellite](https://github.com/alexandre-cezar/satellite-docs/blob/main/Install_Satellite.adoc)
 * [Troubleshooting](https://github.com/alexandre-cezar/satellite-docs/blob/main/Troubleshooting.adoc)
 * [Automating Satellite Deployments](https://github.com/alexandre-cezar/satellite-docs/blob/main/Automating__Satellite_Deployment.adoc)
+* [Troubleshooting](https://github.com/alexandre-cezar/satellite-docs/blob/main/Troubleshooting.adoc)
