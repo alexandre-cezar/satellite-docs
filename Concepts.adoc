@@ -20,3 +20,8 @@ Web UI used to deploy and manage the Satellite Application  +
 To fully automate the deployment of Satellite application, customers can make usage Prisma Cloud APIs+
 
 == Architecture
+
+Prismacloud Satellite consists of two components, Satellite Manager and Scanner Jobs. Satellite Manager is responsible for send satellite's heartbeat back to Prismacloud and keep the scan configs and metadata updated locally.
+Scanner Jobs are spawned by manager based on scan config and metadata. Scanner jobs can be periodic, on demand or continuously running similar to a deployment. These  jobs upload scan results back to Prismacloud.
+
+image::images/arch.png[width=800,align="center"]
