@@ -34,4 +34,62 @@ s|Platform s|Version
 |1.24, 1.25, 1.26, 1.27
 |===
 
-*Service Account Permissions* +
+## Service Account Permissions
+
+### Satellite Manager's roles/permissions
+
+#### Cluster role
+```
+- nonResourceURLs: ["/metrics"]
+  verbs: ["get"]
+- apiGroups: ["authentication.k8s.io"]
+  resources: ["tokenreviews"]
+  verbs: ["create"]
+- apiGroups: ["authorization.k8s.io"]
+  resources: ["subjectaccessreviews"]
+  verbs: ["create"]
+- apiGroups: [""]
+  resources: ["namespaces"]
+  verbs: ["list", "get"]
+```
+
+#### Role
+Satellite only has these permission with it's own namespace
+```
+- apiGroups: [""]
+  resources: ["configmaps"]
+  verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
+- apiGroups: ["coordination.k8s.io"]
+  resources: ["leases"]
+  verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
+- apiGroups: [""]
+  resources: ["events"]
+  verbs: ["create", "patch"]
+- apiGroups: ["batch"]
+  resources: ["cronjobs"]
+  verbs: ["create", "delete", "get", "list", "patch", "update", "watch"]
+- apiGroups: ["batch"]
+  resources: ["jobs"]
+  verbs: ["create", "delete", "get", "list"]
+- apiGroups: ["apps"]
+  resources: ["deployments"]
+  verbs: [ "get", "list", "create", "update", "patch"]
+```
+### Scanner/Job roles
+
+#### Cluster role
+
+```
+- apiGroups: [""]
+  resources: ["pods","pods/log","services","endpoints","nodes","namespaces"]
+  verbs: ["list", "get", "watch"]
+- apiGroups: ["networking.k8s.io"]
+  resources: ["ingresses","networkpolicies"]
+  verbs: ["list", "get", "watch"]
+- apiGroups: ["discovery.k8s.io"]
+  resources: ["endpointslices"]
+  verbs: ["list", "get", "watch"]
+- apiGroups: ["apps"]
+  resources: ["deployments","statefulsets","replicasets","daemonsets"]
+  verbs: ["list", "get", "watch"]
+```
