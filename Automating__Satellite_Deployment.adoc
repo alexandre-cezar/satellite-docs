@@ -1,5 +1,24 @@
 = Automating Satellite Deployments
 Alexandre Cezar <acezar@paloaltonetworks.com> 1.0, August 31, 2023:
+
+==  Prerequisites
+- Ensure `kubectl` is installed and configured to interact with your K8s cluster.
+- Ensure `curl` is installed for making API requests.
+- Ensure `helm` is installed if the install script is a Helm chart or requires Helm for deployment.
+- Ensure you have the required access token or temp API key for authentication.
+
+== Automation Script Steps
+
+1. Download the link:scripts/satellite_onboarding.sh[sample install script]
+2. Update `API_HOST` and `AUTH_TOKEN`
+3. Execute the script from the terminal, passing the `clusterAssetId` as an argument.
+
+```bash
+    chmod +x satellite_onboarding.sh
+    ./satellite_onboarding.sh arn:aws:eks:us-east-2:12654563:cluster/demo-eks-cluster
+```
+This process will interact with the PrismaCloud API to onboard the cluster as well as deploy the satellite component within the designated cluster.
+
 :toc:
 :toc-title:
 :icons: font
